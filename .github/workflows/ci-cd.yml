@@ -26,4 +26,5 @@ jobs:
         env:
           JIB_TO_AUTH_USERNAME: ${{ github.actor }}
           JIB_TO_AUTH_PASSWORD: ${{ secrets.GHCR_TOKEN }}
+
       - run: curl -X POST ${{ secrets.RAILWAY_WEBHOOK }}
