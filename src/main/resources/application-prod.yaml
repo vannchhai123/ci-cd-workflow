@@ -20,7 +20,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: validate   # use 'update' only if you want auto schema update
+      ddl-auto: update
     show-sql: false
     properties:
       hibernate:

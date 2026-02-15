@@ -13,6 +13,11 @@ public class HealthController {
         return "API is running successfully!";
     }
 
+    @GetMapping("/dashboard")
+    public String dashboard(){
+        return "Dashboard API is running successfully!";
+    }
+
     @GetMapping("/api/health")
     public Map<String, Object> health() {
 
