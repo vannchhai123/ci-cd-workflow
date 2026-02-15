@@ -8,6 +8,11 @@ import java.util.Map;
 @RestController
 public class HealthController {
 
+    @GetMapping("/")
+    public String home(){
+        return "API is running successfully!";
+    }
+
     @GetMapping("/api/health")
     public Map<String, Object> health() {
 
