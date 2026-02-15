@@ -88,7 +88,7 @@
 						<image>eclipse-temurin:21-jre-alpine</image>
 					</from>
 					<to>
-						<image>ghcr.io/vannchhai123/workflow-api-repo</image>
+						<image>ghcr.io/vannchhai123/ci-cd-workflow</image>
 						<tags>
 							<tag>latest</tag>
 							<tag>${project.version}</tag>
