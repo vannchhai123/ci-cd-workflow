@@ -2,9 +2,6 @@ server:
   port: ${PORT:8080}
 
 spring:
-  profiles:
-    active: prod
-
   datasource:
     url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
     username: ${PGUSER}
@@ -20,7 +17,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     show-sql: false
     properties:
       hibernate:
@@ -34,4 +31,4 @@ spring:
 logging:
   level:
     root: INFO
-    org.springframework.web: I
+    org.springframework.web: INFO
