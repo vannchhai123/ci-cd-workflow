@@ -20,7 +20,7 @@ public class UserDataLoading implements CommandLineRunner {
 
         User user = User
                 .builder()
-                .name("Vannchhai")
+                .username("Vannchhai")
                 .email("vannchhai@gmail.com")
                 .password("vannchhai123")
                 .build();
